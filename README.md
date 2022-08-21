@@ -6,6 +6,7 @@ In this repository, there are 6 files for the creation of a spatial database fro
 
 ## 1. tables.sql
 There are 13 tables created, with 5 of them having location components and 8 of them without geospatial components. 
+<img src = https://github.com/pratibha1708/Spatial-Data-and-Asset-Facilities-Management-for-cricket-stadium/blob/main/sql.JPG>
 
 ## 2. constraints.sql
 --> There are 4 constraints here which are: <br> 
@@ -29,9 +30,12 @@ There are four views created, namely, <br>
 ## 5. decisions.sql
 This file holds the SEVEN decisions that will help in better decision making for the tennis sports complex.
 
+<img src = https://github.com/pratibha1708/Spatial-Data-and-Asset-Facilities-Management-for-cricket-stadium/blob/main/decisions_pyramid.jpg>
+
 ## 6. QGIS and FME screenshot showing the 5 layers.png
 A screenshot of the database created in a QGIS window and FME Data Inspector. 
 
-
+<img src = https://github.com/pratibha1708/Spatial-Data-and-Asset-Facilities-Management-for-cricket-stadium/blob/main/QGIS.JPG>
+<img src = https://github.com/pratibha1708/Spatial-Data-and-Asset-Facilities-Management-for-cricket-stadium/blob/main/stand_stadium.JPG>
 
 
