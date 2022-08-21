@@ -8,11 +8,11 @@ In this repository, there are 6 files for the creation of a spatial database fro
 There are 13 tables created, with 5 of them having location components and 8 of them without geospatial components. 
 
 ## 2. constraints.sql
---> There are 4 constraints here which are:
-    2.1 Primary keys: Primary keys ensure that each row of data has an identifier. There are 13 primary constraints
-    2.2 Foreign keys: Foreign keys join one table to another.There are 30 foreign constraints.
-    2.3 Unique constraints: Unique constraints validates entries only if they are unique. There are 12 primary constraints
-    2.4 Check constraints: Check constraints ensure that the user doesn't enter values into the database which are not expected. Eg: Entering abbreviations when        the database expects actual words. There is 3 check constraints.
+--> There are 4 constraints here which are: <br> 
+    2.1 Primary keys: Primary keys ensure that each row of data has an identifier. There are 13 primary constraints <br>
+    2.2 Foreign keys: Foreign keys join one table to another.There are 30 foreign constraints. <br>
+    2.3 Unique constraints: Unique constraints validates entries only if they are unique. There are 12 primary constraints <br>
+    2.4 Check constraints: Check constraints ensure that the user doesn't enter values into the database which are not expected. Eg: Entering abbreviations when        the database expects actual words. There is 3 check constraints. <br>
      
 ## 3. insertdata.sql
 This holds the commands to inset data into the tables.
@@ -20,11 +20,11 @@ Data is first inserted into the tables which are not connected to other tables.
 
 ## 4. views.sql
 Views are temporary sql tables that are created from the result of an sql command.The views created make it easier to query data from the database. <br>
-There are four views created, namely,
---> latest_parameters
---> seats_criticality_cost
---> stand_condition_criticality
---> floodlights_condition_criticality_cost
+There are four views created, namely, <br>
+--> latest_parameters <br>
+--> seats_criticality_cost <br>
+--> stand_condition_criticality <br>
+--> floodlights_condition_criticality_cost <br>
 
 ## 5. decisions.sql
 This file holds the SEVEN decisions that will help in better decision making for the tennis sports complex.
